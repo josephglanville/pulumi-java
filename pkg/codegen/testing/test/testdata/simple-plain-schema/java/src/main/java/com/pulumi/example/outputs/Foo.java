@@ -70,7 +70,7 @@ public final class Foo {
         @CustomType.Setter
         public Builder a(Boolean a) {
             if (a == null) {
-               throw new MissingRequiredPropertyException("Foo", "a");
+              throw new MissingRequiredPropertyException("Foo", "a");
             }
             this.a = a;
             return this;
@@ -84,7 +84,7 @@ public final class Foo {
         @CustomType.Setter
         public Builder c(Integer c) {
             if (c == null) {
-               throw new MissingRequiredPropertyException("Foo", "c");
+              throw new MissingRequiredPropertyException("Foo", "c");
             }
             this.c = c;
             return this;
@@ -98,7 +98,7 @@ public final class Foo {
         @CustomType.Setter
         public Builder e(String e) {
             if (e == null) {
-               throw new MissingRequiredPropertyException("Foo", "e");
+              throw new MissingRequiredPropertyException("Foo", "e");
             }
             this.e = e;
             return this;
