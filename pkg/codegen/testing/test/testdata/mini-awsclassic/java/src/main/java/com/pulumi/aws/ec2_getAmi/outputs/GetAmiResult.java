@@ -46,7 +46,7 @@ public final class GetAmiResult {
         @CustomType.Setter
         public Builder kernelId(String kernelId) {
             if (kernelId == null) {
-                throw new MissingRequiredPropertyException("GetAmiResult", "kernelId");
+               throw new MissingRequiredPropertyException("GetAmiResult", "kernelId");
             }
             this.kernelId = kernelId;
             return this;

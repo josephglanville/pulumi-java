@@ -68,7 +68,7 @@ public final class ListConfigurationsResult {
         @CustomType.Setter
         public Builder value(List<ConfigurationResponse> value) {
             if (value == null) {
-                throw new MissingRequiredPropertyException("ListConfigurationsResult", "value");
+              throw new MissingRequiredPropertyException("ListConfigurationsResult", "value");
             }
             this.value = value;
             return this;

@@ -120,7 +120,7 @@ public final class GetActionRuleByNameResult {
         @CustomType.Setter
         public Builder id(String id) {
             if (id == null) {
-                throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "id");
+              throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "id");
             }
             this.id = id;
             return this;
@@ -128,7 +128,7 @@ public final class GetActionRuleByNameResult {
         @CustomType.Setter
         public Builder location(String location) {
             if (location == null) {
-                throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "location");
+              throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "location");
             }
             this.location = location;
             return this;
@@ -136,7 +136,7 @@ public final class GetActionRuleByNameResult {
         @CustomType.Setter
         public Builder name(String name) {
             if (name == null) {
-                throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "name");
+              throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "name");
             }
             this.name = name;
             return this;
@@ -144,7 +144,7 @@ public final class GetActionRuleByNameResult {
         @CustomType.Setter
         public Builder properties(Object properties) {
             if (properties == null) {
-                throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "properties");
+              throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "properties");
             }
             this.properties = properties;
             return this;
@@ -158,7 +158,7 @@ public final class GetActionRuleByNameResult {
         @CustomType.Setter
         public Builder type(String type) {
             if (type == null) {
-                throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "type");
+              throw new MissingRequiredPropertyException("GetActionRuleByNameResult", "type");
             }
             this.type = type;
             return this;

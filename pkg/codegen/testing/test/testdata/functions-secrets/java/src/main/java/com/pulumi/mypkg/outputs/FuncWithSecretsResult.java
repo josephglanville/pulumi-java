@@ -54,7 +54,7 @@ public final class FuncWithSecretsResult {
         @CustomType.Setter
         public Builder ciphertext(String ciphertext) {
             if (ciphertext == null) {
-                throw new MissingRequiredPropertyException("FuncWithSecretsResult", "ciphertext");
+               throw new MissingRequiredPropertyException("FuncWithSecretsResult", "ciphertext");
             }
             this.ciphertext = ciphertext;
             return this;
@@ -62,7 +62,7 @@ public final class FuncWithSecretsResult {
         @CustomType.Setter
         public Builder cryptoKey(String cryptoKey) {
             if (cryptoKey == null) {
-                throw new MissingRequiredPropertyException("FuncWithSecretsResult", "cryptoKey");
+               throw new MissingRequiredPropertyException("FuncWithSecretsResult", "cryptoKey");
             }
             this.cryptoKey = cryptoKey;
             return this;
@@ -70,7 +70,7 @@ public final class FuncWithSecretsResult {
         @CustomType.Setter
         public Builder id(String id) {
             if (id == null) {
-                throw new MissingRequiredPropertyException("FuncWithSecretsResult", "id");
+               throw new MissingRequiredPropertyException("FuncWithSecretsResult", "id");
             }
             this.id = id;
             return this;
@@ -78,7 +78,7 @@ public final class FuncWithSecretsResult {
         @CustomType.Setter
         public Builder plaintext(String plaintext) {
             if (plaintext == null) {
-                throw new MissingRequiredPropertyException("FuncWithSecretsResult", "plaintext");
+               throw new MissingRequiredPropertyException("FuncWithSecretsResult", "plaintext");
             }
             this.plaintext = plaintext;
             return this;

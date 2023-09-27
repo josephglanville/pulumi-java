@@ -89,7 +89,7 @@ public final class Pav2MeterDetailsResponse {
         @CustomType.Setter
         public Builder billingType(String billingType) {
             if (billingType == null) {
-                throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "billingType");
+              throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "billingType");
             }
             this.billingType = billingType;
             return this;
@@ -97,7 +97,7 @@ public final class Pav2MeterDetailsResponse {
         @CustomType.Setter
         public Builder chargingType(String chargingType) {
             if (chargingType == null) {
-                throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "chargingType");
+              throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "chargingType");
             }
             this.chargingType = chargingType;
             return this;
@@ -105,7 +105,7 @@ public final class Pav2MeterDetailsResponse {
         @CustomType.Setter
         public Builder meterGuid(String meterGuid) {
             if (meterGuid == null) {
-                throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "meterGuid");
+              throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "meterGuid");
             }
             this.meterGuid = meterGuid;
             return this;
@@ -113,7 +113,7 @@ public final class Pav2MeterDetailsResponse {
         @CustomType.Setter
         public Builder multiplier(Double multiplier) {
             if (multiplier == null) {
-                throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "multiplier");
+              throw new MissingRequiredPropertyException("Pav2MeterDetailsResponse", "multiplier");
             }
             this.multiplier = multiplier;
             return this;

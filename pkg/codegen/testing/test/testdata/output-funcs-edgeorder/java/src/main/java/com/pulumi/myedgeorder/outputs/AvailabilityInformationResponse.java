@@ -72,7 +72,7 @@ public final class AvailabilityInformationResponse {
         @CustomType.Setter
         public Builder availabilityStage(String availabilityStage) {
             if (availabilityStage == null) {
-                throw new MissingRequiredPropertyException("AvailabilityInformationResponse", "availabilityStage");
+              throw new MissingRequiredPropertyException("AvailabilityInformationResponse", "availabilityStage");
             }
             this.availabilityStage = availabilityStage;
             return this;
@@ -80,7 +80,7 @@ public final class AvailabilityInformationResponse {
         @CustomType.Setter
         public Builder disabledReason(String disabledReason) {
             if (disabledReason == null) {
-                throw new MissingRequiredPropertyException("AvailabilityInformationResponse", "disabledReason");
+              throw new MissingRequiredPropertyException("AvailabilityInformationResponse", "disabledReason");
             }
             this.disabledReason = disabledReason;
             return this;
@@ -88,7 +88,7 @@ public final class AvailabilityInformationResponse {
         @CustomType.Setter
         public Builder disabledReasonMessage(String disabledReasonMessage) {
             if (disabledReasonMessage == null) {
-                throw new MissingRequiredPropertyException("AvailabilityInformationResponse", "disabledReasonMessage");
+              throw new MissingRequiredPropertyException("AvailabilityInformationResponse", "disabledReasonMessage");
             }
             this.disabledReasonMessage = disabledReasonMessage;
             return this;

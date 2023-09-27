@@ -59,7 +59,7 @@ public final class FilterablePropertyResponse {
         @CustomType.Setter
         public Builder supportedValues(List<String> supportedValues) {
             if (supportedValues == null) {
-                throw new MissingRequiredPropertyException("FilterablePropertyResponse", "supportedValues");
+              throw new MissingRequiredPropertyException("FilterablePropertyResponse", "supportedValues");
             }
             this.supportedValues = supportedValues;
             return this;
@@ -70,7 +70,7 @@ public final class FilterablePropertyResponse {
         @CustomType.Setter
         public Builder type(String type) {
             if (type == null) {
-                throw new MissingRequiredPropertyException("FilterablePropertyResponse", "type");
+              throw new MissingRequiredPropertyException("FilterablePropertyResponse", "type");
             }
             this.type = type;
             return this;

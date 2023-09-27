@@ -129,7 +129,7 @@ public final class DimensionsResponse {
         @CustomType.Setter
         public Builder depth(Double depth) {
             if (depth == null) {
-                throw new MissingRequiredPropertyException("DimensionsResponse", "depth");
+              throw new MissingRequiredPropertyException("DimensionsResponse", "depth");
             }
             this.depth = depth;
             return this;
@@ -137,7 +137,7 @@ public final class DimensionsResponse {
         @CustomType.Setter
         public Builder height(Double height) {
             if (height == null) {
-                throw new MissingRequiredPropertyException("DimensionsResponse", "height");
+              throw new MissingRequiredPropertyException("DimensionsResponse", "height");
             }
             this.height = height;
             return this;
@@ -145,7 +145,7 @@ public final class DimensionsResponse {
         @CustomType.Setter
         public Builder length(Double length) {
             if (length == null) {
-                throw new MissingRequiredPropertyException("DimensionsResponse", "length");
+              throw new MissingRequiredPropertyException("DimensionsResponse", "length");
             }
             this.length = length;
             return this;
@@ -153,7 +153,7 @@ public final class DimensionsResponse {
         @CustomType.Setter
         public Builder lengthHeightUnit(String lengthHeightUnit) {
             if (lengthHeightUnit == null) {
-                throw new MissingRequiredPropertyException("DimensionsResponse", "lengthHeightUnit");
+              throw new MissingRequiredPropertyException("DimensionsResponse", "lengthHeightUnit");
             }
             this.lengthHeightUnit = lengthHeightUnit;
             return this;
@@ -161,7 +161,7 @@ public final class DimensionsResponse {
         @CustomType.Setter
         public Builder weight(Double weight) {
             if (weight == null) {
-                throw new MissingRequiredPropertyException("DimensionsResponse", "weight");
+              throw new MissingRequiredPropertyException("DimensionsResponse", "weight");
             }
             this.weight = weight;
             return this;
@@ -169,7 +169,7 @@ public final class DimensionsResponse {
         @CustomType.Setter
         public Builder weightUnit(String weightUnit) {
             if (weightUnit == null) {
-                throw new MissingRequiredPropertyException("DimensionsResponse", "weightUnit");
+              throw new MissingRequiredPropertyException("DimensionsResponse", "weightUnit");
             }
             this.weightUnit = weightUnit;
             return this;
@@ -177,7 +177,7 @@ public final class DimensionsResponse {
         @CustomType.Setter
         public Builder width(Double width) {
             if (width == null) {
-                throw new MissingRequiredPropertyException("DimensionsResponse", "width");
+              throw new MissingRequiredPropertyException("DimensionsResponse", "width");
             }
             this.width = width;
             return this;

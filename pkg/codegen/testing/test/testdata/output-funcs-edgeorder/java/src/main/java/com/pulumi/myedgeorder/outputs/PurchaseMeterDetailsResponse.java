@@ -117,7 +117,7 @@ public final class PurchaseMeterDetailsResponse {
         @CustomType.Setter
         public Builder billingType(String billingType) {
             if (billingType == null) {
-                throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "billingType");
+              throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "billingType");
             }
             this.billingType = billingType;
             return this;
@@ -125,7 +125,7 @@ public final class PurchaseMeterDetailsResponse {
         @CustomType.Setter
         public Builder chargingType(String chargingType) {
             if (chargingType == null) {
-                throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "chargingType");
+              throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "chargingType");
             }
             this.chargingType = chargingType;
             return this;
@@ -133,7 +133,7 @@ public final class PurchaseMeterDetailsResponse {
         @CustomType.Setter
         public Builder multiplier(Double multiplier) {
             if (multiplier == null) {
-                throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "multiplier");
+              throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "multiplier");
             }
             this.multiplier = multiplier;
             return this;
@@ -141,7 +141,7 @@ public final class PurchaseMeterDetailsResponse {
         @CustomType.Setter
         public Builder productId(String productId) {
             if (productId == null) {
-                throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "productId");
+              throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "productId");
             }
             this.productId = productId;
             return this;
@@ -149,7 +149,7 @@ public final class PurchaseMeterDetailsResponse {
         @CustomType.Setter
         public Builder skuId(String skuId) {
             if (skuId == null) {
-                throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "skuId");
+              throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "skuId");
             }
             this.skuId = skuId;
             return this;
@@ -157,7 +157,7 @@ public final class PurchaseMeterDetailsResponse {
         @CustomType.Setter
         public Builder termId(String termId) {
             if (termId == null) {
-                throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "termId");
+              throw new MissingRequiredPropertyException("PurchaseMeterDetailsResponse", "termId");
             }
             this.termId = termId;
             return this;

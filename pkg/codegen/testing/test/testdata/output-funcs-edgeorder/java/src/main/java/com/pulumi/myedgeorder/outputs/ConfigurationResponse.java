@@ -165,7 +165,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder availabilityInformation(AvailabilityInformationResponse availabilityInformation) {
             if (availabilityInformation == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "availabilityInformation");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "availabilityInformation");
             }
             this.availabilityInformation = availabilityInformation;
             return this;
@@ -173,7 +173,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder costInformation(CostInformationResponse costInformation) {
             if (costInformation == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "costInformation");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "costInformation");
             }
             this.costInformation = costInformation;
             return this;
@@ -181,7 +181,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder description(DescriptionResponse description) {
             if (description == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "description");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "description");
             }
             this.description = description;
             return this;
@@ -189,7 +189,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder dimensions(DimensionsResponse dimensions) {
             if (dimensions == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "dimensions");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "dimensions");
             }
             this.dimensions = dimensions;
             return this;
@@ -197,7 +197,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder displayName(String displayName) {
             if (displayName == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "displayName");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "displayName");
             }
             this.displayName = displayName;
             return this;
@@ -205,7 +205,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder filterableProperties(List<FilterablePropertyResponse> filterableProperties) {
             if (filterableProperties == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "filterableProperties");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "filterableProperties");
             }
             this.filterableProperties = filterableProperties;
             return this;
@@ -216,7 +216,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder hierarchyInformation(HierarchyInformationResponse hierarchyInformation) {
             if (hierarchyInformation == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "hierarchyInformation");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "hierarchyInformation");
             }
             this.hierarchyInformation = hierarchyInformation;
             return this;
@@ -224,7 +224,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder imageInformation(List<ImageInformationResponse> imageInformation) {
             if (imageInformation == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "imageInformation");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "imageInformation");
             }
             this.imageInformation = imageInformation;
             return this;
@@ -235,7 +235,7 @@ public final class ConfigurationResponse {
         @CustomType.Setter
         public Builder specifications(List<SpecificationResponse> specifications) {
             if (specifications == null) {
-                throw new MissingRequiredPropertyException("ConfigurationResponse", "specifications");
+              throw new MissingRequiredPropertyException("ConfigurationResponse", "specifications");
             }
             this.specifications = specifications;
             return this;

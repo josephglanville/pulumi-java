@@ -146,7 +146,7 @@ public final class ActionGroupResponse {
         @CustomType.Setter
         public Builder actionGroupId(String actionGroupId) {
             if (actionGroupId == null) {
-                throw new MissingRequiredPropertyException("ActionGroupResponse", "actionGroupId");
+              throw new MissingRequiredPropertyException("ActionGroupResponse", "actionGroupId");
             }
             this.actionGroupId = actionGroupId;
             return this;
@@ -154,7 +154,7 @@ public final class ActionGroupResponse {
         @CustomType.Setter
         public Builder createdAt(String createdAt) {
             if (createdAt == null) {
-                throw new MissingRequiredPropertyException("ActionGroupResponse", "createdAt");
+              throw new MissingRequiredPropertyException("ActionGroupResponse", "createdAt");
             }
             this.createdAt = createdAt;
             return this;
@@ -162,7 +162,7 @@ public final class ActionGroupResponse {
         @CustomType.Setter
         public Builder createdBy(String createdBy) {
             if (createdBy == null) {
-                throw new MissingRequiredPropertyException("ActionGroupResponse", "createdBy");
+              throw new MissingRequiredPropertyException("ActionGroupResponse", "createdBy");
             }
             this.createdBy = createdBy;
             return this;
@@ -176,7 +176,7 @@ public final class ActionGroupResponse {
         @CustomType.Setter
         public Builder lastModifiedAt(String lastModifiedAt) {
             if (lastModifiedAt == null) {
-                throw new MissingRequiredPropertyException("ActionGroupResponse", "lastModifiedAt");
+              throw new MissingRequiredPropertyException("ActionGroupResponse", "lastModifiedAt");
             }
             this.lastModifiedAt = lastModifiedAt;
             return this;
@@ -184,7 +184,7 @@ public final class ActionGroupResponse {
         @CustomType.Setter
         public Builder lastModifiedBy(String lastModifiedBy) {
             if (lastModifiedBy == null) {
-                throw new MissingRequiredPropertyException("ActionGroupResponse", "lastModifiedBy");
+              throw new MissingRequiredPropertyException("ActionGroupResponse", "lastModifiedBy");
             }
             this.lastModifiedBy = lastModifiedBy;
             return this;
@@ -198,7 +198,7 @@ public final class ActionGroupResponse {
         @CustomType.Setter
         public Builder type(String type) {
             if (type == null) {
-                throw new MissingRequiredPropertyException("ActionGroupResponse", "type");
+              throw new MissingRequiredPropertyException("ActionGroupResponse", "type");
             }
             this.type = type;
             return this;

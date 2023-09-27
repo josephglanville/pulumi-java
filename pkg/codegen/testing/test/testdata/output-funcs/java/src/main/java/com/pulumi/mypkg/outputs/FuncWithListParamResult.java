@@ -36,7 +36,7 @@ public final class FuncWithListParamResult {
         @CustomType.Setter
         public Builder r(String r) {
             if (r == null) {
-                throw new MissingRequiredPropertyException("FuncWithListParamResult", "r");
+              throw new MissingRequiredPropertyException("FuncWithListParamResult", "r");
             }
             this.r = r;
             return this;

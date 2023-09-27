@@ -150,7 +150,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder availabilityInformation(AvailabilityInformationResponse availabilityInformation) {
             if (availabilityInformation == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "availabilityInformation");
+              throw new MissingRequiredPropertyException("ProductResponse", "availabilityInformation");
             }
             this.availabilityInformation = availabilityInformation;
             return this;
@@ -158,7 +158,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder configurations(List<ConfigurationResponse> configurations) {
             if (configurations == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "configurations");
+              throw new MissingRequiredPropertyException("ProductResponse", "configurations");
             }
             this.configurations = configurations;
             return this;
@@ -169,7 +169,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder costInformation(CostInformationResponse costInformation) {
             if (costInformation == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "costInformation");
+              throw new MissingRequiredPropertyException("ProductResponse", "costInformation");
             }
             this.costInformation = costInformation;
             return this;
@@ -177,7 +177,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder description(DescriptionResponse description) {
             if (description == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "description");
+              throw new MissingRequiredPropertyException("ProductResponse", "description");
             }
             this.description = description;
             return this;
@@ -185,7 +185,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder displayName(String displayName) {
             if (displayName == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "displayName");
+              throw new MissingRequiredPropertyException("ProductResponse", "displayName");
             }
             this.displayName = displayName;
             return this;
@@ -193,7 +193,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder filterableProperties(List<FilterablePropertyResponse> filterableProperties) {
             if (filterableProperties == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "filterableProperties");
+              throw new MissingRequiredPropertyException("ProductResponse", "filterableProperties");
             }
             this.filterableProperties = filterableProperties;
             return this;
@@ -204,7 +204,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder hierarchyInformation(HierarchyInformationResponse hierarchyInformation) {
             if (hierarchyInformation == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "hierarchyInformation");
+              throw new MissingRequiredPropertyException("ProductResponse", "hierarchyInformation");
             }
             this.hierarchyInformation = hierarchyInformation;
             return this;
@@ -212,7 +212,7 @@ public final class ProductResponse {
         @CustomType.Setter
         public Builder imageInformation(List<ImageInformationResponse> imageInformation) {
             if (imageInformation == null) {
-                throw new MissingRequiredPropertyException("ProductResponse", "imageInformation");
+              throw new MissingRequiredPropertyException("ProductResponse", "imageInformation");
             }
             this.imageInformation = imageInformation;
             return this;

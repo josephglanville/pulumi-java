@@ -51,7 +51,7 @@ public final class GetPolicyDocumentResult {
         @CustomType.Setter
         public Builder id(String id) {
             if (id == null) {
-                throw new MissingRequiredPropertyException("GetPolicyDocumentResult", "id");
+              throw new MissingRequiredPropertyException("GetPolicyDocumentResult", "id");
             }
             this.id = id;
             return this;
@@ -59,7 +59,7 @@ public final class GetPolicyDocumentResult {
         @CustomType.Setter
         public Builder json(String json) {
             if (json == null) {
-                throw new MissingRequiredPropertyException("GetPolicyDocumentResult", "json");
+              throw new MissingRequiredPropertyException("GetPolicyDocumentResult", "json");
             }
             this.json = json;
             return this;

@@ -86,7 +86,7 @@ public final class StorageAccountKeyResponse {
         @CustomType.Setter
         public Builder creationTime(String creationTime) {
             if (creationTime == null) {
-                throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "creationTime");
+              throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "creationTime");
             }
             this.creationTime = creationTime;
             return this;
@@ -94,7 +94,7 @@ public final class StorageAccountKeyResponse {
         @CustomType.Setter
         public Builder keyName(String keyName) {
             if (keyName == null) {
-                throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "keyName");
+              throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "keyName");
             }
             this.keyName = keyName;
             return this;
@@ -102,7 +102,7 @@ public final class StorageAccountKeyResponse {
         @CustomType.Setter
         public Builder permissions(String permissions) {
             if (permissions == null) {
-                throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "permissions");
+              throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "permissions");
             }
             this.permissions = permissions;
             return this;
@@ -110,7 +110,7 @@ public final class StorageAccountKeyResponse {
         @CustomType.Setter
         public Builder value(String value) {
             if (value == null) {
-                throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "value");
+              throw new MissingRequiredPropertyException("StorageAccountKeyResponse", "value");
             }
             this.value = value;
             return this;

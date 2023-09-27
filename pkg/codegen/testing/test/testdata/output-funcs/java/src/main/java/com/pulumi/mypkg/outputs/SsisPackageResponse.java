@@ -194,7 +194,7 @@ public final class SsisPackageResponse {
         @CustomType.Setter
         public Builder type(String type) {
             if (type == null) {
-                throw new MissingRequiredPropertyException("SsisPackageResponse", "type");
+              throw new MissingRequiredPropertyException("SsisPackageResponse", "type");
             }
             this.type = type;
             return this;

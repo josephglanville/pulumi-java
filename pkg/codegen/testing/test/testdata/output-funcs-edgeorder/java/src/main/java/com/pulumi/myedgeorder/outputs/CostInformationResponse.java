@@ -60,7 +60,7 @@ public final class CostInformationResponse {
         @CustomType.Setter
         public Builder billingInfoUrl(String billingInfoUrl) {
             if (billingInfoUrl == null) {
-                throw new MissingRequiredPropertyException("CostInformationResponse", "billingInfoUrl");
+              throw new MissingRequiredPropertyException("CostInformationResponse", "billingInfoUrl");
             }
             this.billingInfoUrl = billingInfoUrl;
             return this;
@@ -68,7 +68,7 @@ public final class CostInformationResponse {
         @CustomType.Setter
         public Builder billingMeterDetails(List<BillingMeterDetailsResponse> billingMeterDetails) {
             if (billingMeterDetails == null) {
-                throw new MissingRequiredPropertyException("CostInformationResponse", "billingMeterDetails");
+              throw new MissingRequiredPropertyException("CostInformationResponse", "billingMeterDetails");
             }
             this.billingMeterDetails = billingMeterDetails;
             return this;

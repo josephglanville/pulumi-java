@@ -76,7 +76,7 @@ public final class Container {
         @CustomType.Setter
         public Builder size(ContainerSize size) {
             if (size == null) {
-                throw new MissingRequiredPropertyException("Container", "size");
+              throw new MissingRequiredPropertyException("Container", "size");
             }
             this.size = size;
             return this;

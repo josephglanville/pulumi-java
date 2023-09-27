@@ -175,7 +175,7 @@ const builderTemplateText = `{{ .Indent }}public static {{ .Name }} builder() {
 {{- end }}
 {{ $.Indent }}    public {{ $.Name }} {{ $setter.SetterName }}({{ $setter.PropertyType }} {{ $setter.PropertyName }}) {
 {{ if $setter.IsRequired }}{{ $.Indent }}        if ({{ $setter.PropertyName }} == null) {
-{{ $.Indent }}            throw new MissingRequiredPropertyException("{{ $.ResultType }}", "{{ $setter.PropertyName }}");
+{{ $.Indent }}          throw new MissingRequiredPropertyException("{{ $.ResultType }}", "{{ $setter.PropertyName }}");
 {{ $.Indent }}        }{{ end }}
 {{ $.Indent }}        {{ $setter.Assignment }};
 {{ $.Indent }}        return this;

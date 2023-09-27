@@ -150,7 +150,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder availabilityInformation(AvailabilityInformationResponse availabilityInformation) {
             if (availabilityInformation == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "availabilityInformation");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "availabilityInformation");
             }
             this.availabilityInformation = availabilityInformation;
             return this;
@@ -158,7 +158,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder costInformation(CostInformationResponse costInformation) {
             if (costInformation == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "costInformation");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "costInformation");
             }
             this.costInformation = costInformation;
             return this;
@@ -166,7 +166,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder description(DescriptionResponse description) {
             if (description == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "description");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "description");
             }
             this.description = description;
             return this;
@@ -174,7 +174,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder displayName(String displayName) {
             if (displayName == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "displayName");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "displayName");
             }
             this.displayName = displayName;
             return this;
@@ -182,7 +182,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder filterableProperties(List<FilterablePropertyResponse> filterableProperties) {
             if (filterableProperties == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "filterableProperties");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "filterableProperties");
             }
             this.filterableProperties = filterableProperties;
             return this;
@@ -193,7 +193,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder hierarchyInformation(HierarchyInformationResponse hierarchyInformation) {
             if (hierarchyInformation == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "hierarchyInformation");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "hierarchyInformation");
             }
             this.hierarchyInformation = hierarchyInformation;
             return this;
@@ -201,7 +201,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder imageInformation(List<ImageInformationResponse> imageInformation) {
             if (imageInformation == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "imageInformation");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "imageInformation");
             }
             this.imageInformation = imageInformation;
             return this;
@@ -212,7 +212,7 @@ public final class ProductLineResponse {
         @CustomType.Setter
         public Builder products(List<ProductResponse> products) {
             if (products == null) {
-                throw new MissingRequiredPropertyException("ProductLineResponse", "products");
+              throw new MissingRequiredPropertyException("ProductLineResponse", "products");
             }
             this.products = products;
             return this;

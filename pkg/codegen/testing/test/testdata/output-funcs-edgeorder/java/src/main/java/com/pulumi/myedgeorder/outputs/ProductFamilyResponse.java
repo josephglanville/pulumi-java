@@ -150,7 +150,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder availabilityInformation(AvailabilityInformationResponse availabilityInformation) {
             if (availabilityInformation == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "availabilityInformation");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "availabilityInformation");
             }
             this.availabilityInformation = availabilityInformation;
             return this;
@@ -158,7 +158,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder costInformation(CostInformationResponse costInformation) {
             if (costInformation == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "costInformation");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "costInformation");
             }
             this.costInformation = costInformation;
             return this;
@@ -166,7 +166,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder description(DescriptionResponse description) {
             if (description == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "description");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "description");
             }
             this.description = description;
             return this;
@@ -174,7 +174,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder displayName(String displayName) {
             if (displayName == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "displayName");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "displayName");
             }
             this.displayName = displayName;
             return this;
@@ -182,7 +182,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder filterableProperties(List<FilterablePropertyResponse> filterableProperties) {
             if (filterableProperties == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "filterableProperties");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "filterableProperties");
             }
             this.filterableProperties = filterableProperties;
             return this;
@@ -193,7 +193,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder hierarchyInformation(HierarchyInformationResponse hierarchyInformation) {
             if (hierarchyInformation == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "hierarchyInformation");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "hierarchyInformation");
             }
             this.hierarchyInformation = hierarchyInformation;
             return this;
@@ -201,7 +201,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder imageInformation(List<ImageInformationResponse> imageInformation) {
             if (imageInformation == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "imageInformation");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "imageInformation");
             }
             this.imageInformation = imageInformation;
             return this;
@@ -212,7 +212,7 @@ public final class ProductFamilyResponse {
         @CustomType.Setter
         public Builder productLines(List<ProductLineResponse> productLines) {
             if (productLines == null) {
-                throw new MissingRequiredPropertyException("ProductFamilyResponse", "productLines");
+              throw new MissingRequiredPropertyException("ProductFamilyResponse", "productLines");
             }
             this.productLines = productLines;
             return this;

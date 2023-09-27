@@ -45,7 +45,7 @@ public final class ListStorageAccountKeysResult {
         @CustomType.Setter
         public Builder keys(List<StorageAccountKeyResponse> keys) {
             if (keys == null) {
-                throw new MissingRequiredPropertyException("ListStorageAccountKeysResult", "keys");
+              throw new MissingRequiredPropertyException("ListStorageAccountKeysResult", "keys");
             }
             this.keys = keys;
             return this;

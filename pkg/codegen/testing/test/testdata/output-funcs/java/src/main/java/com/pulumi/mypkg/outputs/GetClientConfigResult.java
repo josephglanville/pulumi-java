@@ -86,7 +86,7 @@ public final class GetClientConfigResult {
         @CustomType.Setter
         public Builder clientId(String clientId) {
             if (clientId == null) {
-                throw new MissingRequiredPropertyException("GetClientConfigResult", "clientId");
+              throw new MissingRequiredPropertyException("GetClientConfigResult", "clientId");
             }
             this.clientId = clientId;
             return this;
@@ -94,7 +94,7 @@ public final class GetClientConfigResult {
         @CustomType.Setter
         public Builder objectId(String objectId) {
             if (objectId == null) {
-                throw new MissingRequiredPropertyException("GetClientConfigResult", "objectId");
+              throw new MissingRequiredPropertyException("GetClientConfigResult", "objectId");
             }
             this.objectId = objectId;
             return this;
@@ -102,7 +102,7 @@ public final class GetClientConfigResult {
         @CustomType.Setter
         public Builder subscriptionId(String subscriptionId) {
             if (subscriptionId == null) {
-                throw new MissingRequiredPropertyException("GetClientConfigResult", "subscriptionId");
+              throw new MissingRequiredPropertyException("GetClientConfigResult", "subscriptionId");
             }
             this.subscriptionId = subscriptionId;
             return this;
@@ -110,7 +110,7 @@ public final class GetClientConfigResult {
         @CustomType.Setter
         public Builder tenantId(String tenantId) {
             if (tenantId == null) {
-                throw new MissingRequiredPropertyException("GetClientConfigResult", "tenantId");
+              throw new MissingRequiredPropertyException("GetClientConfigResult", "tenantId");
             }
             this.tenantId = tenantId;
             return this;

@@ -103,7 +103,7 @@ public final class GetAmiIdsResult {
         @CustomType.Setter
         public Builder id(String id) {
             if (id == null) {
-                throw new MissingRequiredPropertyException("GetAmiIdsResult", "id");
+              throw new MissingRequiredPropertyException("GetAmiIdsResult", "id");
             }
             this.id = id;
             return this;
@@ -111,7 +111,7 @@ public final class GetAmiIdsResult {
         @CustomType.Setter
         public Builder ids(List<String> ids) {
             if (ids == null) {
-                throw new MissingRequiredPropertyException("GetAmiIdsResult", "ids");
+              throw new MissingRequiredPropertyException("GetAmiIdsResult", "ids");
             }
             this.ids = ids;
             return this;
@@ -128,7 +128,7 @@ public final class GetAmiIdsResult {
         @CustomType.Setter
         public Builder owners(List<String> owners) {
             if (owners == null) {
-                throw new MissingRequiredPropertyException("GetAmiIdsResult", "owners");
+              throw new MissingRequiredPropertyException("GetAmiIdsResult", "owners");
             }
             this.owners = owners;
             return this;

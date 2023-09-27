@@ -36,7 +36,7 @@ public final class FuncWithDictParamResult {
         @CustomType.Setter
         public Builder r(String r) {
             if (r == null) {
-                throw new MissingRequiredPropertyException("FuncWithDictParamResult", "r");
+              throw new MissingRequiredPropertyException("FuncWithDictParamResult", "r");
             }
             this.r = r;
             return this;

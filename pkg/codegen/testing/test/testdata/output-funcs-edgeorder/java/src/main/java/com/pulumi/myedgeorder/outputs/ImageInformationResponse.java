@@ -58,7 +58,7 @@ public final class ImageInformationResponse {
         @CustomType.Setter
         public Builder imageType(String imageType) {
             if (imageType == null) {
-                throw new MissingRequiredPropertyException("ImageInformationResponse", "imageType");
+              throw new MissingRequiredPropertyException("ImageInformationResponse", "imageType");
             }
             this.imageType = imageType;
             return this;
@@ -66,7 +66,7 @@ public final class ImageInformationResponse {
         @CustomType.Setter
         public Builder imageUrl(String imageUrl) {
             if (imageUrl == null) {
-                throw new MissingRequiredPropertyException("ImageInformationResponse", "imageUrl");
+              throw new MissingRequiredPropertyException("ImageInformationResponse", "imageUrl");
             }
             this.imageUrl = imageUrl;
             return this;

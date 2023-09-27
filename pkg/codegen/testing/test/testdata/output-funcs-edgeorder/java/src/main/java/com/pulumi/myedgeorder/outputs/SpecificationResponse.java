@@ -58,7 +58,7 @@ public final class SpecificationResponse {
         @CustomType.Setter
         public Builder name(String name) {
             if (name == null) {
-                throw new MissingRequiredPropertyException("SpecificationResponse", "name");
+              throw new MissingRequiredPropertyException("SpecificationResponse", "name");
             }
             this.name = name;
             return this;
@@ -66,7 +66,7 @@ public final class SpecificationResponse {
         @CustomType.Setter
         public Builder value(String value) {
             if (value == null) {
-                throw new MissingRequiredPropertyException("SpecificationResponse", "value");
+              throw new MissingRequiredPropertyException("SpecificationResponse", "value");
             }
             this.value = value;
             return this;

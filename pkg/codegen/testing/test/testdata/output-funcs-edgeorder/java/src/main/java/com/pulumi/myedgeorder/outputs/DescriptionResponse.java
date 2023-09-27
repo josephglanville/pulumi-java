@@ -116,7 +116,7 @@ public final class DescriptionResponse {
         @CustomType.Setter
         public Builder attributes(List<String> attributes) {
             if (attributes == null) {
-                throw new MissingRequiredPropertyException("DescriptionResponse", "attributes");
+              throw new MissingRequiredPropertyException("DescriptionResponse", "attributes");
             }
             this.attributes = attributes;
             return this;
@@ -127,7 +127,7 @@ public final class DescriptionResponse {
         @CustomType.Setter
         public Builder descriptionType(String descriptionType) {
             if (descriptionType == null) {
-                throw new MissingRequiredPropertyException("DescriptionResponse", "descriptionType");
+              throw new MissingRequiredPropertyException("DescriptionResponse", "descriptionType");
             }
             this.descriptionType = descriptionType;
             return this;
@@ -135,7 +135,7 @@ public final class DescriptionResponse {
         @CustomType.Setter
         public Builder keywords(List<String> keywords) {
             if (keywords == null) {
-                throw new MissingRequiredPropertyException("DescriptionResponse", "keywords");
+              throw new MissingRequiredPropertyException("DescriptionResponse", "keywords");
             }
             this.keywords = keywords;
             return this;
@@ -146,7 +146,7 @@ public final class DescriptionResponse {
         @CustomType.Setter
         public Builder links(List<LinkResponse> links) {
             if (links == null) {
-                throw new MissingRequiredPropertyException("DescriptionResponse", "links");
+              throw new MissingRequiredPropertyException("DescriptionResponse", "links");
             }
             this.links = links;
             return this;
@@ -157,7 +157,7 @@ public final class DescriptionResponse {
         @CustomType.Setter
         public Builder longDescription(String longDescription) {
             if (longDescription == null) {
-                throw new MissingRequiredPropertyException("DescriptionResponse", "longDescription");
+              throw new MissingRequiredPropertyException("DescriptionResponse", "longDescription");
             }
             this.longDescription = longDescription;
             return this;
@@ -165,7 +165,7 @@ public final class DescriptionResponse {
         @CustomType.Setter
         public Builder shortDescription(String shortDescription) {
             if (shortDescription == null) {
-                throw new MissingRequiredPropertyException("DescriptionResponse", "shortDescription");
+              throw new MissingRequiredPropertyException("DescriptionResponse", "shortDescription");
             }
             this.shortDescription = shortDescription;
             return this;

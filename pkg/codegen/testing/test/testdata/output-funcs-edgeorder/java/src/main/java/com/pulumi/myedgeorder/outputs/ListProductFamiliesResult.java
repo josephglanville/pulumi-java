@@ -68,7 +68,7 @@ public final class ListProductFamiliesResult {
         @CustomType.Setter
         public Builder value(List<ProductFamilyResponse> value) {
             if (value == null) {
-                throw new MissingRequiredPropertyException("ListProductFamiliesResult", "value");
+              throw new MissingRequiredPropertyException("ListProductFamiliesResult", "value");
             }
             this.value = value;
             return this;

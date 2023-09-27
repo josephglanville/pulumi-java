@@ -89,7 +89,7 @@ public final class BillingMeterDetailsResponse {
         @CustomType.Setter
         public Builder frequency(String frequency) {
             if (frequency == null) {
-                throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "frequency");
+              throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "frequency");
             }
             this.frequency = frequency;
             return this;
@@ -97,7 +97,7 @@ public final class BillingMeterDetailsResponse {
         @CustomType.Setter
         public Builder meterDetails(Either<Pav2MeterDetailsResponse,PurchaseMeterDetailsResponse> meterDetails) {
             if (meterDetails == null) {
-                throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "meterDetails");
+              throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "meterDetails");
             }
             this.meterDetails = meterDetails;
             return this;
@@ -105,7 +105,7 @@ public final class BillingMeterDetailsResponse {
         @CustomType.Setter
         public Builder meteringType(String meteringType) {
             if (meteringType == null) {
-                throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "meteringType");
+              throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "meteringType");
             }
             this.meteringType = meteringType;
             return this;
@@ -113,7 +113,7 @@ public final class BillingMeterDetailsResponse {
         @CustomType.Setter
         public Builder name(String name) {
             if (name == null) {
-                throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "name");
+              throw new MissingRequiredPropertyException("BillingMeterDetailsResponse", "name");
             }
             this.name = name;
             return this;

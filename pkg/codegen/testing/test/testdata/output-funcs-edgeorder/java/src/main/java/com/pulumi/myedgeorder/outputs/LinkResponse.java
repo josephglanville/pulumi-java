@@ -58,7 +58,7 @@ public final class LinkResponse {
         @CustomType.Setter
         public Builder linkType(String linkType) {
             if (linkType == null) {
-                throw new MissingRequiredPropertyException("LinkResponse", "linkType");
+              throw new MissingRequiredPropertyException("LinkResponse", "linkType");
             }
             this.linkType = linkType;
             return this;
@@ -66,7 +66,7 @@ public final class LinkResponse {
         @CustomType.Setter
         public Builder linkUrl(String linkUrl) {
             if (linkUrl == null) {
-                throw new MissingRequiredPropertyException("LinkResponse", "linkUrl");
+              throw new MissingRequiredPropertyException("LinkResponse", "linkUrl");
             }
             this.linkUrl = linkUrl;
             return this;

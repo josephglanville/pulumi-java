@@ -36,7 +36,7 @@ public final class FuncWithDefaultValueResult {
         @CustomType.Setter
         public Builder r(String r) {
             if (r == null) {
-                throw new MissingRequiredPropertyException("FuncWithDefaultValueResult", "r");
+              throw new MissingRequiredPropertyException("FuncWithDefaultValueResult", "r");
             }
             this.r = r;
             return this;

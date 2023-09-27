@@ -192,7 +192,7 @@ public final class SsisProjectResponse {
         @CustomType.Setter
         public Builder type(String type) {
             if (type == null) {
-                throw new MissingRequiredPropertyException("SsisProjectResponse", "type");
+              throw new MissingRequiredPropertyException("SsisProjectResponse", "type");
             }
             this.type = type;
             return this;

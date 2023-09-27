@@ -109,7 +109,7 @@ public final class SsisFolderResponse {
         @CustomType.Setter
         public Builder type(String type) {
             if (type == null) {
-                throw new MissingRequiredPropertyException("SsisFolderResponse", "type");
+              throw new MissingRequiredPropertyException("SsisFolderResponse", "type");
             }
             this.type = type;
             return this;

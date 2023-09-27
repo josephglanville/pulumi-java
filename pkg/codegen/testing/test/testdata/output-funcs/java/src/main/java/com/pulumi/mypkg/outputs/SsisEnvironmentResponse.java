@@ -145,7 +145,7 @@ public final class SsisEnvironmentResponse {
         @CustomType.Setter
         public Builder type(String type) {
             if (type == null) {
-                throw new MissingRequiredPropertyException("SsisEnvironmentResponse", "type");
+              throw new MissingRequiredPropertyException("SsisEnvironmentResponse", "type");
             }
             this.type = type;
             return this;

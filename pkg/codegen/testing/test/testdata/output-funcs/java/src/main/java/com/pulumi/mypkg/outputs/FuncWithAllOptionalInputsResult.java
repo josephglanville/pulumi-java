@@ -36,7 +36,7 @@ public final class FuncWithAllOptionalInputsResult {
         @CustomType.Setter
         public Builder r(String r) {
             if (r == null) {
-                throw new MissingRequiredPropertyException("FuncWithAllOptionalInputsResult", "r");
+              throw new MissingRequiredPropertyException("FuncWithAllOptionalInputsResult", "r");
             }
             this.r = r;
             return this;

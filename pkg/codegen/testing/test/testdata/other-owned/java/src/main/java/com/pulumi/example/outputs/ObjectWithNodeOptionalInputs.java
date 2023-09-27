@@ -51,7 +51,7 @@ public final class ObjectWithNodeOptionalInputs {
         @CustomType.Setter
         public Builder foo(String foo) {
             if (foo == null) {
-                throw new MissingRequiredPropertyException("ObjectWithNodeOptionalInputs", "foo");
+              throw new MissingRequiredPropertyException("ObjectWithNodeOptionalInputs", "foo");
             }
             this.foo = foo;
             return this;

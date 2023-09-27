@@ -43,7 +43,7 @@ public final class GetAmiIdsFilter {
         @CustomType.Setter
         public Builder name(String name) {
             if (name == null) {
-                throw new MissingRequiredPropertyException("GetAmiIdsFilter", "name");
+              throw new MissingRequiredPropertyException("GetAmiIdsFilter", "name");
             }
             this.name = name;
             return this;
@@ -51,7 +51,7 @@ public final class GetAmiIdsFilter {
         @CustomType.Setter
         public Builder values(List<String> values) {
             if (values == null) {
-                throw new MissingRequiredPropertyException("GetAmiIdsFilter", "values");
+              throw new MissingRequiredPropertyException("GetAmiIdsFilter", "values");
             }
             this.values = values;
             return this;
